@@ -105,7 +105,7 @@
                                                     <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend03.jpg" alt="NikkouTousyougu" itemprop="thumbnailUrl">
                                                     <span class="ex-title"><nobr>Nikkou Tosyogu</nobr></span>
                                                 </dt>
-                                                <dd itemprop="headline">6 mysterious and interesting points</dd>
+                                                <dd itemprop="headline">4 mysterious and interesting points</dd>
                                             </dl>
                                         </a>
                                     </article>
@@ -144,7 +144,7 @@
                                 </li>
                                 <li>
                                     <article>
-                                        <a href="/folklore/4-mysterious-customs-and-traditions-in-japan/" itemprop="url">
+                                        <a href="/folklore/mysterious-customs-and-traditions-in-japan/" itemprop="url">
                                             <dl>
                                                 <dt>
                                                     <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/images/recommend05.jpg" alt="" itemprop="thumbnailUrl">
@@ -152,7 +152,7 @@
                                                 </dt>
                                                 <dd itemprop="headline">
                                                     <?php
-                                                    echo mb_strimwidth("4 Mysterious customs and traditions in Japan", 0, 40, "...");
+                                                    echo mb_strimwidth("6 Mysterious customs and traditions in Japan", 0, 40, "...");
                                                     ?>
                                                 </dd>
                                             </dl>
