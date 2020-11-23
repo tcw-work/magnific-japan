@@ -215,13 +215,13 @@
                                         </a>
                                     </article>
                                 <article>
-                                    <a href="/folklore/4-mysterious-customs-and-traditions-in-japan/" itemprop="url">
+                                    <a href="/folklore/mysterious-customs-and-traditions-in-japan/" itemprop="url">
                                         <dl>
                                             <dt>
                                                 <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend05.jpg" alt="" itemprop="thumbnailUrl"></dt>
                                             <dd itemprop="headline">
                                                 <?php
-                                                echo mb_strimwidth("4 Mysterious customs and traditions in Japan", 0, 91, "...");
+                                                echo mb_strimwidth("6 Mysterious customs and traditions in Japan", 0, 91, "...");
                                                 ?></dd>
                                         </dl>
                                     </a>
