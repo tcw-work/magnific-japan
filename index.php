@@ -91,7 +91,7 @@
                                                     <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend01.jpg" alt="nagatoro" itemprop="thumbnailUrl">
                                                     <span class="ex-title" itemprop="name">Chichibu</span>
                                                 </dt>
-                                                <dd itemprop="headline">7 interesting and attractive sites at Chichibu in Saitama</dd>
+                                                <dd itemprop="headline">8 interesting and attractive sites at Chichibu in Saitama</dd>
                                             </dl>
                                         </a>
                                     </articl>
@@ -105,7 +105,7 @@
                                                     <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend03.jpg" alt="NikkouTousyougu" itemprop="thumbnailUrl">
                                                     <span class="ex-title"><nobr>Nikkou Tosyogu</nobr></span>
                                                 </dt>
-                                                <dd itemprop="headline">4 mysterious and interesting points</dd>
+                                                <dd itemprop="headline">6 mysterious and interesting points</dd>
                                             </dl>
                                         </a>
                                     </article>
