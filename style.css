@@ -649,6 +649,7 @@ header .header-wrap {
 .single .article-inner .post-article p em {
     font-style: italic;
     font-size: 15px;
+    font-weight: bold;
 }
 .single .article-inner .post-article ul {
     padding: 15px 30px 15px 30px;
