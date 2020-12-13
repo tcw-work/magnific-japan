@@ -189,10 +189,12 @@ header .header-wrap {
     overflow: hidden;
     position: relative;
     max-height: 194px;
+/*    min-height: 152px;*/
 }
 .topics .content-box .top-zoom .top-editimg {
-    width: 132%;
-    max-width: 132%;
+    width: 125%;
+    max-width: 308px;
+/*    max-width: 132%;*/
     position: relative;
     left: -13%;
 }
@@ -644,6 +646,10 @@ header .header-wrap {
 .single .article-inner .post-article p .red {
     color: #ff3f3f;;
 }
+.single .article-inner .post-article p em {
+    font-style: italic;
+    font-size: 15px;
+}
 .single .article-inner .post-article ul {
     padding: 15px 30px 15px 30px;
     background-color: #f8f8f8;
@@ -858,7 +864,7 @@ header .header-wrap {
     width: 100%;
     vertical-align: bottom;
     display: block;
-    max-width: min-content;
+    max-width: 761px;
     display: block;
 }
 
@@ -1011,7 +1017,12 @@ header .header-wrap {
     .topics .content-box .top-zoom {
         min-height: 0px;
     }
-
+    .topics .content-box .top-zoom span {
+/*        max-height: 162px;*/
+    }
+    .topics .content-box .top-zoom .top-editimg {
+        position: initial;
+    }
     .recommend .content-box .r-01 {
         width: 49.3%;
     }
@@ -1509,20 +1520,28 @@ header .header-wrap {
         margin-bottom: 11px;
     }
     .article-inner .articleMain .articleMain-inner h2 {
-        width: 90%;
-        padding: 10px 0px 10px 10%;
+        width: 100%;
+        padding: 10px 10% 10px 10%;
+        box-sizing: border-box;
+        font-size: 23px;
     }
     .article-inner .articleMain .articleMain-inner h3 {
-        width: 90%;
-        padding: 10px 0px 10px 10%;
+        width: 100%;
+        padding: 10px 5% 10px 10%;
+        box-sizing: border-box;
+        font-size: 23px;
     }
     .article-inner .articleMain .articleMain-inner h4 {
-        width: 90%;
-        padding: 10px 0px 10px 10%;
+        width: 100%;
+        padding: 10px 5% 10px 10%;
+        box-sizing: border-box;
+        font-size: 23px;
     }
     .article-inner .articleMain .articleMain-inner h5 {
-        width: 90%;
-        padding: 10px 0px 10px 10%;
+        width: 100%;
+        padding: 10px 5% 10px 10%;
+        box-sizing: border-box;
+        font-size: 23px;
     }
     
     .footerList {
