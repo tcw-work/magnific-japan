@@ -651,6 +651,11 @@ header .header-wrap {
     font-size: 15px;
     font-weight: bold;
 }
+
+.single .article-inner .post-article figure.wp-block-image {
+    max-width: fit-content;
+}
+
 .single .article-inner .post-article ul {
     padding: 15px 30px 15px 30px;
     background-color: #f8f8f8;
@@ -744,6 +749,24 @@ header .header-wrap {
 .table_of_contents li a:hover {
     color: #e3d7a3;
 }
+
+/*
+.single .article-inner .post-article .table_of_contents li::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    border-radius: 0%;
+    background: #000;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+.single .article-inner .post-article .table_of_contents li a[href*="autoid_1"]::before {
+    content: "";
+}
+*/
+
 .wp-block-group {
     font-weight: 400;
 }
@@ -1519,6 +1542,9 @@ header .header-wrap {
     }
     .single .add-infor {
         margin-bottom: 11px;
+    }
+    .article-inner .articleMain .articleMain-inner h1 {
+        font-size: 32px;
     }
     .article-inner .articleMain .articleMain-inner h2 {
         width: 100%;
