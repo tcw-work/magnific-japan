@@ -97,7 +97,7 @@
                                     </articl>
                                 </li>
                                 <li class="r-02">
-                                    <article>
+                                    <article class="r-02-01">
                                         <a href="/trip/nikko-toshogu-4-mysterious-and-interesting-points/" itemprop="url">
                                             <dl class="r-02-in01">
                                                 <dt>

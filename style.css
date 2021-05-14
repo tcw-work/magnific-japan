@@ -205,21 +205,25 @@ header .header-wrap {
 .recommend .content-box .r-01 {
 }
 .recommend .content-box .r-01 dl {
-    width: 565px;
+    width: 567px;
 }
 .recommend .content-box .r-01 dd {
     line-height: 1.7;
+    padding: 13px 12px;
 }
 .recommend .content-box .r-02 .r-2-top {
     margin-bottom: 8px;
 }
 .recommend .content-box .r-02 dl {
-    width: 567px;
+    width: 566px;
 }
 .recommend .content-box .r-02 dl dd {
     line-height: 1.41;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+.recommend .content-box .r-02 .r-02-01 {
+    margin-bottom: 10px;
 }
 .recommend .content-box dl dd {
     text-align: left;
@@ -1305,6 +1309,11 @@ header .header-wrap {
     .content .content-box dl.r-02-in01 {
         margin-bottom: 30px;
     }
+    .topics .content-box .top-zoom .top-editimg {
+/*        width: 100%;*/
+        width: 116%;
+        max-width: 768px;
+    }
     .recommend .content-box dt .ex-title {
         font-size: 26px;
     }
@@ -1313,6 +1322,7 @@ header .header-wrap {
     }
     .recommend .content-box .r-01 dl dd {
         line-height: 1.6;
+        padding: 12px;
     }
     .recommend .content-box .r-02 dl dd {
         line-height: 1.6;
@@ -1342,6 +1352,9 @@ header .header-wrap {
     }
     .recommend .content-box .r-02 .r-2-top {
         margin-bottom: 30px;
+    }
+    .recommend .content-box .r-02 .r-02-01 {
+        margin-bottom: 0px;
     }
     .recommend .content-box .content-bottom {
         display: none;
