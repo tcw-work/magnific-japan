@@ -2,6 +2,13 @@
     <?php get_header(); ?>
         <div class="wrap">
             <div class="mainPic">
+                <!--        アニメーションエフェクトjs-->
+                <!-- particles.js container -->
+                <div id="particles-js"></div> <!-- stats - count particles -->
+<!--                <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>-->
+
+                <!--        アニメーションエフェクトjs-->
+
                 <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/images/main.jpg" alt="">
                 <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/main.jpg" alt="">
             </div>
@@ -101,11 +108,11 @@
                                         <a href="/trip/nikko-toshogu-4-mysterious-and-interesting-points/" itemprop="url">
                                             <dl class="r-02-in01">
                                                 <dt>
-                                                    <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/images/recommend03.jpg" alt="NikkouTousyougu" itemprop="thumbnailUrl">
-                                                    <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend03.jpg" alt="NikkouTousyougu" itemprop="thumbnailUrl">
-                                                    <span class="ex-title"><nobr>Nikkou Tosyogu</nobr></span>
+                                                    <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/images/recommend03.jpg" alt="Nikko-Tousyougu" itemprop="thumbnailUrl">
+                                                    <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend03.jpg" alt="Nikko-Tousyougu" itemprop="thumbnailUrl">
+                                                    <span class="ex-title"><nobr>Nikko Tosyogu</nobr></span>
                                                 </dt>
-                                                <dd itemprop="headline">4 mysterious and interesting points</dd>
+                                                <dd itemprop="headline">4 mysterious and interesting points in Toshogu</dd>
                                             </dl>
                                         </a>
                                     </article>
@@ -113,9 +120,9 @@
                                         <a href="/trip/mishaka-lake-in-nagano-beautiful-mirror-lake-in-japan/" itemprop="url">
                                             <dl class="r-2-top">
                                                 <dt>
-                                                    <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/images/recommend02.jpg" alt="misyakaike" itemprop="thumbnailUrl">
-                                                    <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend02.jpg" alt="misyakaike" itemprop="thumbnailUrl">
-                                                    <span class="ex-title" itemprop="name"><nobr>Misyakaike</nobr></span>
+                                                    <img class="is-pc" src="<?php echo get_template_directory_uri(); ?>/images/recommend02.jpg" alt="misyaka lake" itemprop="thumbnailUrl">
+                                                    <img class="is-sp" src="<?php echo get_template_directory_uri(); ?>/images/sp/recommend02.jpg" alt="misyaka lake" itemprop="thumbnailUrl">
+                                                    <span class="ex-title" itemprop="name"><nobr>Misyaka Lake</nobr></span>
                                                 </dt>
                                                 <dd itemprop="headline">Mishakaike | beautiful mirror lake in Nagano</dd>
                                             </dl>
