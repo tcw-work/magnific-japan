@@ -113,22 +113,23 @@ header .header-wrap {
 }
 .main .title {
     border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 26.5px;
+    margin-bottom: 26.5px;
+    line-height: 1;
+    font-size: 32px;
 }
 .main .title h2 {
-    font-size: 26px;
     color: #29415b;
 }
 .main .title h3 {
-    font-size: 26px;
+    font-size: 32px;
 }
 .main .title h4 {
     font-size: 26px;
 }
 
 .content {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .topics .content-box {
 }
@@ -312,7 +313,7 @@ header .header-wrap {
     width: 761px;
     max-height: 287px;
     border-bottom: 1px solid #eee;
-    padding: 40px 0px;
+    padding: 25px 0px;
     overflow: hidden;
 }
 .article .articleContent .articleList:first-child {
@@ -907,12 +908,12 @@ header .header-wrap {
 /*related*/
 .related {
     width: 761px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .related-block {
     width: 741px;
     overflow: hidden;
-    margin: 0 auto;
+    margin-left: 0 auto;
 }
 .related-entry {
     width: 350px;
@@ -1288,10 +1289,10 @@ header .header-wrap {
         font-size: 23px;
     }
     .main .title h3 {
-        font-size: 23px;
+        font-size: 24px;
     }
     .main .title h4 {
-        font-size: 23px;
+        font-size: 24px;
     }
     .content .content-box ul {
         display: inline-block;
@@ -1528,6 +1529,7 @@ header .header-wrap {
         float: none;
         max-width: 768px;
         width: 100%;
+        margin-top: 50px;
     }
     .article .Side .SideBar .KeywordTop ul li {
 
@@ -1552,7 +1554,7 @@ header .header-wrap {
         text-align: center;
     }
     .article .Side .SideBar .keyword {
-        margin-bottom: 45px;
+        margin-bottom: 50px;
     }
     
 /*    single*/
