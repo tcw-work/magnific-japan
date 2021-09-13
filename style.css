@@ -112,11 +112,25 @@ header .header-wrap {
 
 }
 .main .title {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 26.5px;
-    margin-bottom: 26.5px;
+    position: relative;
+    /* border-bottom: 2px solid #122c49; */
+    padding-bottom: 19.5px;
+    margin: 0px auto 43px;
     line-height: 1;
     font-size: 32px;
+    width: 100%;
+    max-width: max-content;
+}
+.main .title:after {
+    content: "";
+    border-bottom: 2px solid #122c49;
+    width: 60%;
+    height: 3px;
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    top: 46px;
+    left: 20%;
 }
 .main .title h2 {
     color: #29415b;
@@ -129,7 +143,7 @@ header .header-wrap {
 }
 
 .content {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 .topics .content-box {
 }
@@ -635,7 +649,7 @@ header .header-wrap {
     transition: color .1s linear;
 }
 .single .article-inner {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .single .article-inner .post-article {
     /*    font-family: 'Merriweather', serif;*/
@@ -908,15 +922,15 @@ header .header-wrap {
 /*related*/
 .related {
     width: 761px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 .related-block {
-    width: 741px;
+    width: 761px;
     overflow: hidden;
     margin-left: 0 auto;
 }
 .related-entry {
-    width: 350px;
+    width: 360px;
     background-color: #122c49;
     float: left;
 }
@@ -1283,7 +1297,10 @@ header .header-wrap {
     .main .title {
         text-align: center;
         padding-bottom: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .main .title:after {
+        top: 35px;
     }
     .main .title h2 {
         font-size: 23px;
