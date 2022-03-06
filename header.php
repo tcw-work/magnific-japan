@@ -42,3 +42,6 @@
             </div>
         </div>
     </header>
+    <div id="loading-wrapper">
+        <div class="loader"></div>
+    </div>
