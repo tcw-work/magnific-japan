@@ -94,11 +94,24 @@ header .header-wrap {
 }
 .mainPic {
     margin-bottom: 50px;
-    border-bottom: 5px solid #e3d7a3;
-    /*    border-top: 5px solid #e3d7a3;*/
+    border-bottom: 8px solid #122c49;
     position: relative;
     overflow: hidden;
 }
+/*
+.mainPic:after {
+    content: "";
+    border-bottom: 5px solid #e3d7a3;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    display: block;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -0%);
+}
+*/
 .mainPic img {
     width: 100%;
     vertical-align: bottom;
